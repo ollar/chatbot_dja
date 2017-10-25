@@ -1,0 +1,9 @@
+JQUERY_VERSION = '3.2.1'
+JQUERY_INTEGRITY = 'sha256-k2WSCIexGzOj3Euiig+TlR8gA0EmPjuc79OEeY5L45g='
+
+
+def globals(request):
+    return {
+        'JQUERY_VERSION': JQUERY_VERSION,
+        'JQUERY_INTEGRITY': JQUERY_INTEGRITY,
+    }
